@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1,h2,h3,h4,h5,h6,body{
+
+  font-family: "Azeret Mono", monospace;
+    
+   }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Banner Section styles start here */
+.Banner-section{
+  width:auto;
+  height:652px ;
+  background-image: url(/Images/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  margin-top: 120px;
+
+  }
+
+  .Banner-content{ 
+  text-align: center;
+  display: flex;
+  height:500px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 230px 0px 230px;
+  } 
+  .Banner-content h1{
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+    font-synthesis-weight: 800;
+    margin: 20px 30px;
+  }
+  .Banner-content p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+  .Banner-content button{
+
+    font: size 20px;
+    font-weight: 600;
+    color : #fff;
+    padding: 15px 35px;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 30px;
+
+    
+  }
+/* Banner Section styles end here */
