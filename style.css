@@ -65,6 +65,7 @@ h1,h2,h3,h4,h5,h6,body{
      margin: 100px 85px 100px 85px;
      background-color: #fafafb;
      border-radius: 16px;
+
    
    
 }
@@ -89,21 +90,23 @@ h1,h2,h3,h4,h5,h6,body{
      flex-direction: column;
      align-items: center;
      gap: 30px;
+
+     
 }
 .layer-box{
      margin: 50px 15px 0px 15px;
      padding: 40px;
      border-radius: 10px;
-     background-color: #fff;
-     box-shadow: #fafafb;
-     flex-direction:column;
-     display:flex;
+     background-color: #fff
+     flex-direction: column;
+     display: flex;
      align-items: left;
      width: 100%;
      max-width: 1000px;
      align-items: flex-start;
      justify-content: center;
-     gap: 20px;
+     gap: 30px;
+     box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
      
 
 }
@@ -117,17 +120,21 @@ button {
      margin-top: 30px;
      border-radius: 2px;
      border-width: 1px;
+     display:flex;
+     max-width: 20%;
+     
      
 }
 .layer-content{
      text-align:left;
      display: flex;
      flex-direction: column;
+     
 }
 .layer-box img {
-     max-width: 250px;
+     max-width:250px;
      border-radius: 8px;
-     margin-right: 20px;
+     margin-right: 50px;
 }
 
 
@@ -163,3 +170,66 @@ button {
 }
 
 /* My Inspiration css end here */
+
+/*  My Current Target start here  */
+.My-Current-Target{
+     
+     gap: 30px;
+     margin:0px 150px 60px 150px;
+}
+.My-Current-Target h2 {
+     text-align: center;
+     font-size: 38px;
+     font-weight: 800;
+
+}
+.My-Current-Target p {
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+}
+.card-btn {
+     padding: 0px;
+     background-color: #fff;
+     border-width: 0px 0px 1px 0px;
+     border-radius: 0px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}  
+.feature-container-card{
+     margin: 10px;
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+
+     
+
+}
+.card{
+
+     padding: 20px;
+     border-radius: 10px;
+     margin: 10px;
+     box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+     
+
+} 
+
+.card h4 {
+     font-size: 26px;
+     color: #000;
+     text-align: start;
+}
+.card p {
+     font-size: 16px;
+     color: #000;
+     font-weight: 400;
+     text-align: start;
+     margin-top: 8px;
+     margin-bottom: 8px;
+}
+
+
+
+/*  My Current Target end here  */
