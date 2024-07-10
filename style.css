@@ -190,7 +190,7 @@ button {
 }
 .card-btn {
      padding: 0px;
-     background-color: #fff;
+     background-color: #ffffff00;
      border-width: 0px 0px 1px 0px;
      border-radius: 0px;
      margin-top: 10px;
@@ -206,22 +206,73 @@ button {
      
 
 }
-.card{
+.card-1{
 
      padding: 20px;
      border-radius: 10px;
      margin: 10px;
      box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+     justify-content: flex-start;
+     align-items: flex-start;
+     background-color: #fff6f4;
+
+} 
+.card-2{
+
+     padding: 20px;
+     border-radius: 10px;
+     margin: 10px;
+     box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+     justify-content: flex-start;
+     align-items: flex-start;
+     background-color: #f2f6fe;
+
      
+} 
+.card-3{
+
+     padding: 20px;
+     border-radius: 10px;
+     margin: 10px;
+     box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+     justify-content: flex-start;
+     align-items: flex-start;
+     background-color: #fffdf2;
 
 } 
 
-.card h4 {
+.card-1 h4 {
      font-size: 26px;
      color: #000;
      text-align: start;
 }
-.card p {
+.card-2 h4 {
+     font-size: 26px;
+     color: #000;
+     text-align: start;
+}
+.card-3 h4 {
+     font-size: 26px;
+     color: #000;
+     text-align: start;
+}
+.card-1 p {
+     font-size: 16px;
+     color: #000;
+     font-weight: 400;
+     text-align: start;
+     margin-top: 8px;
+     margin-bottom: 8px;
+}
+.card-2 p {
+     font-size: 16px;
+     color: #000;
+     font-weight: 400;
+     text-align: start;
+     margin-top: 8px;
+     margin-bottom: 8px;
+}
+.card-3 p {
      font-size: 16px;
      color: #000;
      font-weight: 400;
