@@ -64,9 +64,7 @@ h1,h2,h3,h4,h5,h6,body{
      padding: 80px 40px 80px 40px;
      margin: 100px 85px 100px 85px;
      background-color: #fafafb;
-     border-radius: 16px;
-     
-     
+     border-radius: 16px;     
 }
 .second-section h2{ 
      text-align: center;
@@ -90,8 +88,7 @@ h1,h2,h3,h4,h5,h6,body{
      display:inline-flex;
      border-radius: 10px;
      background-color: #fff;
-     box-shadow: #fafafb;
-     height:400px;
+     box-shadow: #fafafb; 
      
 }
 .fist-layer-column1{
@@ -113,7 +110,6 @@ h1,h2,h3,h4,h5,h6,body{
      text-align: center;
      text-transform: uppercase;
      margin: 30px 0px 30px 0px;
-     text-decoration: none;
      
 }
 .fist-layer-column2 image{
