@@ -131,11 +131,35 @@ button {
 }
 
 
-
-
-
-
-
 /* 2nd section css end */
 
+/* My Inspiration css start */
 
+.My-Inspiration {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+     margin:0px 150px 60px 150px;
+
+}
+.My-Inspiration h2 {
+      text-align: center;
+     font-size: 38px;
+     font-weight: 800;
+}
+.My-Inspiration p{
+     text-align: center;
+     font-size: 16px;
+     font-weight: 400;
+}
+.Video{
+     border-radius: 15px;
+     padding: 15px;
+     border-width: 2px;
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    border-color: #000;
+}
+
+/* My Inspiration css end here */
