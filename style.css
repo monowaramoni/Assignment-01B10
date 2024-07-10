@@ -60,62 +60,68 @@ h1,h2,h3,h4,h5,h6,body{
 /* Banner Section styles end here */
 /*2nd section css start */
 
-.second-section{
+.Why-Web-Development {
      padding: 80px 40px 80px 40px;
      margin: 100px 85px 100px 85px;
      background-color: #fafafb;
-     border-radius: 16px;     
+     border-radius: 16px; 
+   
+   
 }
-.second-section h2{ 
+.Why-Web-Development h2 { 
      text-align: center;
      margin: 5px;
      font-size: 35px;
      font-weight: 600;
      color: black;
 
+
 }
-.second-section p{ 
-     text-align: center;
+.Why-Web-Development p { 
+     
     margin-top: 20px;
      font-size: 16px;
      font-weight: 400;
      color: black;
+     
 
 }
-.first-layer-section{
+.layer-1 {
      margin: 80px 15px 80px 15px;
      padding: 80px;
-     display:inline-flex;
      border-radius: 10px;
      background-color: #fff;
-     box-shadow: #fafafb; 
+     box-shadow: #fafafb;
+     flex-direction:column;
+     display:inline-flex;
+
+
      
 }
-.fist-layer-column1{
-     padding-right: 90px;
+.layer-1-column1 h3 {
+     text-align: left;
 }
-.fist-layer-column1 p{
-     text-align:left;
-
-}
-.fist-layer-column1 h3{
-     text-align:left;
-
-}
-.fist-layer-column1 button {
-     padding: 12px 25px 12px 25px;
-     border-width: 1px;
-     border-bottom: #000000;
-     background-color: #fff;
+.column-1{
      text-align: center;
-     text-transform: uppercase;
-     margin: 30px 0px 30px 0px;
+}
+button {
+     background-color: #fafafb;
+     padding: 10px 20px;
+     margin-top: 10px;
+     border-radius: 2px;
+     border-width: 1px;
      
 }
-.fist-layer-column2 image{
-     width: 100%;
+.layer-1-column1{
+     padding: 80px;
 }
-/* 2nd section first layer css here */
+.layer-1-column2 {
+   
+     image-rendering: 8px;
+     width: 150px;
+}
+
+
 
 /* 2nd section css end */
 }
