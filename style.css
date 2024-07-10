@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6,body{
 .Banner-section{
   width:auto;
   height:652px ;
-  background-image: url(/Images/Hero-bg.png);
+  background-image: url(Images/Hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
