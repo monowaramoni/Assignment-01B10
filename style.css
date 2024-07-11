@@ -121,9 +121,7 @@ h1,h2,h3,h4,h5,h6,body{
      text-decoration : none;
      margin: 10px;
      color: #000;
-     border-width: 1px 1px 1px 1px;
-
-   
+     border-width: 1px 1px 1px 1px;  
 }
 
 .layer-content{
@@ -131,7 +129,7 @@ h1,h2,h3,h4,h5,h6,body{
      display: flex;
      flex-direction: column;
      justify-content: space-between;
-     
+  
 }
 .layer-box img {
      max-width:250px;
@@ -271,7 +269,7 @@ h1,h2,h3,h4,h5,h6,body{
      font-size: 16px;
      color: #000;
      font-weight: 400;
-     text-align: left
+     text-align: left;
      margin-top: 10px;
      margin-bottom: 10px;
      padding: 0px;
