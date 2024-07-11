@@ -347,7 +347,7 @@ h1,h2,h3,h4,h5,h6,body{
 
 
 .footer {
-     padding: 25PX 25PX;
+     padding: 23PX 23PX;     
      background-color: #f7f8f8;
      border-top: 2px;
      justify-content: space-around;
@@ -357,8 +357,10 @@ h1,h2,h3,h4,h5,h6,body{
 
 } 
 
-.content {
-     padding-top: 10px;
+
+.social-media-footer img {
+     width: 20%;
+     
 }
 
 
