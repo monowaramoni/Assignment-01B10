@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6,body{
      background-color: #fff
      flex-direction: column;
      display:flex;
-     align-items: left;
+     align-items:left;
      width: 100%;
      max-width: 11800px;
      justify-content: space-between;
