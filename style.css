@@ -269,7 +269,7 @@ h1,h2,h3,h4,h5,h6,body{
      font-size: 16px;
      color: #000;
      font-weight: 400;
-     text-align: left;
+     text-align:left;
      margin-top: 10px;
      margin-bottom: 10px;
      padding: 0px;
@@ -332,9 +332,10 @@ h1,h2,h3,h4,h5,h6,body{
      color : #ffffff;
      padding: 50px;
      display: flex;
-     align-items: center;
-     justify-content: space-evenly;
+     align-items: center;    
      width: 100%;
+     flex-direction: row;
+     gap: 10px;
      
 }
 .form-input input{
@@ -347,6 +348,7 @@ h1,h2,h3,h4,h5,h6,body{
      border: none;
      margin: 10px;
 }
+
 
 
 .footer {
