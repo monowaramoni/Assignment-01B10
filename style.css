@@ -284,3 +284,52 @@ button {
 
 
 /*  My Current Target end here  */
+/* I need Support  css start  here */
+.I-need-Support{
+     width:auto;
+     height:352px ;
+     background-image: url(Images/handshake.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 150px;
+     margin-top: 100px;
+     border-radius: 16px;
+     padding: 64px 148px 64px 148px;
+     
+}
+
+.I-need-Support h2 {
+     text-align: center;
+     text-decoration: none;
+     color : #ffffff;
+     padding: 10px;
+
+}
+.I-need-Support p {
+     text-align: center;
+     text-decoration: none;
+     color : #ffffff;
+     padding: 10px;
+
+}
+.I-need-Support form {
+     text-align: center;
+     text-decoration: none;
+     color : #ffffff;
+     padding: 50px;
+     
+}
+.form-input input{
+     padding: 10px;
+     width:50%;
+     display:inline;
+     margin: 10px;
+     border-radius: 30px;
+     display: inline;
+     border: none;
+     
+
+}
+
+
