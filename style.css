@@ -104,32 +104,33 @@ h1,h2,h3,h4,h5,h6,body{
      align-items: left;
      width: 100%;
      max-width: 11800px;
-     align-items: flex-start;
-     justify-content: center;
+     justify-content: space-between;
      gap: 30px;
      box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+     
+     
      
 
 }
 .layer-box p {
      margin-top: 20px;
+     
 
 }
-button {
-     background-color: #fafafb;
+.btn-layer {
+     background-color: #fafafb
      padding: 10px 20px;
-     margin-top: 30px;
-     border-radius: 2px;
+     text-decoration : none;
+     margin: 10px;
      border-width: 1px;
-     display:flex;
-     max-width: 20%;
-     
-     
+     color: #000;
+   
 }
 .layer-content{
      text-align:left;
      display: flex;
      flex-direction: column;
+     justify-content: space-between;
      
 }
 .layer-box img {
@@ -177,6 +178,11 @@ button {
      
      gap: 30px;
      margin:0px 150px 60px 150px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+
 }
 .My-Current-Target h2 {
      text-align: center;
@@ -200,9 +206,7 @@ button {
 .feature-container-card{
      margin: 10px;
      padding: 15px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
+    
 
      
 
@@ -289,8 +293,8 @@ button {
 /* I need Support  css start  here */
 .I-need-Support{
      width:auto;
-     height:352px ;
-     background-image: url(Images/handshake.jpg);
+     height:380px ;
+     background-image: url(Images/handshake.jpg);    
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -298,6 +302,7 @@ button {
      margin-top: 100px;
      border-radius: 16px;
      padding: 64px 148px 64px 148px;
+     align-items: center;
      
 }
 
@@ -320,18 +325,23 @@ button {
      text-decoration: none;
      color : #ffffff;
      padding: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 100%;
      
 }
 .form-input input{
      padding: 10px;
-     width:50%;
+     width:100%;
      display:inline;
      margin: 10px;
-     border-radius: 30px;
+     border-radius: 10px;
      display: inline;
      border: none;
-
+     margin: 10px;
 }
+
 
 .footer {
      padding: 25PX 25PX;
@@ -346,7 +356,6 @@ button {
 
 .content {
      padding-top: 10px;
-     
 }
 
 
