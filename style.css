@@ -212,7 +212,7 @@ h1,h2,h3,h4,h5,h6,body{
 }
 .card-1{
 
-     padding: 20px;
+     padding: 25px;
      border-radius: 10px;
      margin: 10px;
      box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
@@ -223,7 +223,7 @@ h1,h2,h3,h4,h5,h6,body{
 } 
 .card-2{
 
-     padding: 20px;
+     padding: 25px;
      border-radius: 10px;
      margin: 10px;
      box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
@@ -235,7 +235,7 @@ h1,h2,h3,h4,h5,h6,body{
 } 
 .card-3{
 
-     padding: 20px;
+     padding: 25px;
      border-radius: 10px;
      margin: 10px;
      box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
@@ -249,41 +249,50 @@ h1,h2,h3,h4,h5,h6,body{
      font-size: 26px;
      color: #000;
      text-align: start;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
 .card-2 h4 {
      font-size: 26px;
      color: #000;
      text-align: start;
-     margin: 10px;
+     
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
 .card-3 h4 {
      font-size: 26px;
      color: #000;
      text-align: start;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
 .card-1 p {
      font-size: 16px;
      color: #000;
      font-weight: 400;
-     text-align: start;
-     margin-top: 8px;
-     margin-bottom: 8px;
+     text-align: left;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 0px;
 }
 .card-2 p {
      font-size: 16px;
      color: #000;
      font-weight: 400;
-     text-align: start;
-     margin-top: 8px;
-     margin-bottom: 8px;
+     text-align: left;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 0px;
 }
 .card-3 p {
      font-size: 16px;
      color: #000;
      font-weight: 400;
-     text-align: start;
-     margin-top: 8px;
-     margin-bottom: 8px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding: 0px;
+     text-align: left;
 }
 
 
