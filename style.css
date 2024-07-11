@@ -332,4 +332,16 @@ button {
 
 }
 
+.footer {
+     padding: 20PX 25PX;
+     background-color: #f7f8f8;
+     border-top: 2px;
+     justify-content: space-around;
+     align-items: center;
+     display: flex;
+     
+
+} 
+
+
 
